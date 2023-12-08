@@ -1,0 +1,27 @@
+@import "../../scss/mixins";
+
+.page {
+    display: flex;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    &__left,
+    &__right {
+        flex: 0 0 8%;
+
+        @include respond(phone) {
+            display: none;
+        }
+
+        @include respond(tab-port) {
+            display: none;
+        }
+    }
+
+    &__center {
+        flex: 1;
+    }
+}
