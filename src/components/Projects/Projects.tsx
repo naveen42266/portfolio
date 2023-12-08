@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './projects.scss';
 import LazyLoad from 'react-lazyload';
 import AnimatedLettersFast from '@components/AnimatedLettersFast/AnimatedLettersFast';
+import Project1 from "assets/images/todo.png"
+import Project2 from "assets/images/domoto.png"
+import Project3 from "assets/images/miro.png"
 
 const Project = () => {
   const [letterClass, setLetterClass] = useState('text-animate-fast');
@@ -24,8 +27,7 @@ const Project = () => {
       <LazyLoad once height={400}>
         <section className='project__section'>
           <div className='project__left'>
-            <img className='project__img' src='src/assets/images/todo.png
-            ' alt='color palette' />
+            <img className='project__img' src={Project1} alt='color palette' />
           </div>
           <div className='project__right'>
             <h3 className='project__headingTertiary'>Featured Project</h3>
@@ -83,14 +85,14 @@ const Project = () => {
             </div>
           </div>
           <div className='project__right'>
-            <img className='project__img' src='src/assets/images/domoto.png' alt='yelpcap campgrounds' />
+            <img className='project__img' src={Project2} alt='yelpcap campgrounds' />
           </div>
         </section>
       </LazyLoad>
       <LazyLoad once height={400}>
         <section className='project__section project__section3'>
           <div className='project__left'>
-            <img className='project__img' src='src/assets/images/miro.png' alt='online grocery store' />
+            <img className='project__img' src={Project3} alt='online grocery store' />
           </div>
           <div className='project__right'>
             <h3 className='project__headingTertiary'>Featured Project</h3>

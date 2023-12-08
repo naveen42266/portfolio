@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import './navbar.scss';
 import Switch from "react-switch";
-
+import logo from "assets/images/naav.png"
 const Navbar = () => {
   const [checked, setChecked] = useState(true);
 
@@ -12,7 +12,9 @@ const Navbar = () => {
     <div className='navbar__left'>
       <Link to='/' className='navbar__link'>
       {/* <img alt='logo' src=' https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hiclipart.com%2Ffree-transparent-background-png-clipart-qcybs&psig=AOvVaw3pwGQAVGWGiFdScyW0kFHY&ust=1702041071299000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCg9Z6z_YIDFQAAAAAdAAAAABAL' className='navbar__img' /> */}
-        <img alt='logo' src='src/assets/images/naav.png' className='navbar__img' />
+        {/* <img alt='logo' src='src/assets/images/naav.png' className='navbar__img' /> */}
+        <img alt='logo' src={logo} className='navbar__img' />
+
       </Link>
       {/* <Switch
         checked={checked}
