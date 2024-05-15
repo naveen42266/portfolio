@@ -34,9 +34,12 @@ const Introduction = () => {
           <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={19} />
         </h1>
         <h2 className='intro__headingSecondary'>Full Stack Developer / Software Engineer</h2>
+        <div className='intro__flex'>
         <Link to='/contact' className='intro__button'>
           Contact Me
         </Link>
+        <a href='https://drive.google.com/file/d/105WUqEqb81xrkyXLHHO0tE3SMu6yYv4v/view?usp=sharing' target='_blank' rel='noreferrer' className='intro__resumeButton'>Resume</a>
+        </div>
         <span className='sectiontag'>&lt;/section&gt;</span>
       </div>
     </div>
