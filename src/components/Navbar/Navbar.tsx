@@ -7,16 +7,16 @@ import logo from "assets/images/naav.png"
 const Navbar = () => {
   // const [checked, setChecked] = useState(true);
 
-  return(
+  return (
     <nav className='navbar'>
-    <div className='navbar__left'>
-      <Link to='/' className='navbar__link'>
-      {/* <img alt='logo' src=' https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hiclipart.com%2Ffree-transparent-background-png-clipart-qcybs&psig=AOvVaw3pwGQAVGWGiFdScyW0kFHY&ust=1702041071299000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCg9Z6z_YIDFQAAAAAdAAAAABAL' className='navbar__img' /> */}
-        {/* <img alt='logo' src='src/assets/images/naav.png' className='navbar__img' /> */}
-        <img alt='logo' src={logo} className='navbar__img' />
+      <div className='navbar__left'>
+        <Link to='/' className='navbar__link'>
+          {/* <img alt='logo' src=' https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hiclipart.com%2Ffree-transparent-background-png-clipart-qcybs&psig=AOvVaw3pwGQAVGWGiFdScyW0kFHY&ust=1702041071299000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCg9Z6z_YIDFQAAAAAdAAAAABAL' className='navbar__img' /> */}
+          {/* <img alt='logo' src='src/assets/images/naav.png' className='navbar__img' /> */}
+          <img alt='logo' src={logo} className='navbar__img' />
 
-      </Link>
-      {/* <Switch
+        </Link>
+        {/* <Switch
         checked={checked}
         onChange={() => { setChecked(!checked) }}
         offColor="#baaa80"
@@ -56,39 +56,39 @@ const Navbar = () => {
         }
         id="icon-switch"
       /> */}
-    </div>
-    <div className='navbar__right'>
-      <ul className='navbar__list'>
-        <li className='navbar__items'>
-          <HashLink to='/#about' className='navbar__itemsLink'>
-            <span className='navbar__itemsLinkNumeric'>01.</span>
-            About
-          </HashLink>
-        </li>
-        <li className='navbar__items'>
-          <HashLink to='/#projects' className='navbar__itemsLink'>
-            <span className='navbar__itemsLinkNumeric'>02.</span>
-            Projects
-          </HashLink>
-        </li>
-        <li className='navbar__items'>
-          <HashLink to='/#work' className='navbar__itemsLink'>
-            <span className='navbar__itemsLinkNumeric'>03.</span>
-            Work
-          </HashLink>
-        </li>
-        <li className='navbar__items'>
-          <NavLink to='/contact' className='navbar__itemsLink'>
-            <span className='navbar__itemsLinkNumeric'>04.</span>
-            Contact
-          </NavLink>
-        </li>
-      </ul>
-      <a href='https://drive.google.com/file/d/105WUqEqb81xrkyXLHHO0tE3SMu6yYv4v/view?usp=sharing' target='_blank' rel='noreferrer' className='navbar__button'>Resume</a>
-    </div>
-  </nav>
+      </div>
+      <div className='navbar__right'>
+        <ul className='navbar__list'>
+          <li className='navbar__items'>
+            <HashLink to='/#about' className='navbar__itemsLink'>
+              <span className='navbar__itemsLinkNumeric'>01.</span>
+              About
+            </HashLink>
+          </li>
+          <li className='navbar__items'>
+            <HashLink to='/#projects' className='navbar__itemsLink'>
+              <span className='navbar__itemsLinkNumeric'>02.</span>
+              Projects
+            </HashLink>
+          </li>
+          <li className='navbar__items'>
+            <HashLink to='/#work' className='navbar__itemsLink'>
+              <span className='navbar__itemsLinkNumeric'>03.</span>
+              Work
+            </HashLink>
+          </li>
+          <li className='navbar__items'>
+            <NavLink to='/contact' className='navbar__itemsLink'>
+              <span className='navbar__itemsLinkNumeric'>04.</span>
+              Contact
+            </NavLink>
+          </li>
+        </ul>
+        <a href='https://drive.google.com/file/d/105WUqEqb81xrkyXLHHO0tE3SMu6yYv4v/view?usp=sharing' target='_blank' rel='noreferrer' className='navbar__button'>Resume</a>
+      </div>
+    </nav>
   )
- 
-      }
+
+}
 
 export default Navbar;
