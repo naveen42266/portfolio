@@ -47,7 +47,7 @@ const Contact = () => {
         <p className='contact__description'>
           {/* I am interested in freelance opportunities - especially on ambitious
           or large projects. */}
-           However, if you have any other requests or
+          However, if you have any other requests or
           questions, don&apos;t hesitate to contact me using below form either.
         </p>
         <div className='form'>
@@ -75,21 +75,21 @@ const Contact = () => {
         <Map
           mapboxAccessToken='pk.eyJ1IjoieWFzaGZhbGtlNzciLCJhIjoiY2t1MjQ2Z2cwMmxjazJvbXI2OGk5b2V0dSJ9.BGnMIJbpa2OzthfRTtTP6w'
           initialViewState={{
-           longitude:77.241195,
-           latitude:11.353382,
+            longitude: 77.241195,
+            latitude: 11.353382,
             zoom: 5.5,
           }}
           // style={{ width: "100%", height: 600 }}
-          mapStyle='mapbox://styles/yashfalke77/cl89ugdbm001q14rth35g4qth'
+          mapStyle='mapbox://styles/mapbox/dark-v8'
         >
           <Marker latitude={11.353382} longitude={77.241195}>
             <button type='button' className='map__button'>
-            {/* <img alt='logo' src='src/assets/images/naav.png' className='' /> */}
+              {/* <img alt='logo' src='src/assets/images/naav.png' className='' /> */}
               <svg width='40' height='132' viewBox='0 0 420 512' fill='none' xmlns='http://www.w3.org/2000/svg'>
                 <g filter='url(#filter0_d_405_4)'>
                   <path d='M235 473C173.283 420.483 127.188 371.704 96.7125 326.663C66.2375 281.621 51 239.933 51 201.6C51 144.1 69.4958 98.2917 106.487 64.175C143.479 30.0583 186.317 13 235 13C283.683 13 326.521 30.0583 363.512 64.175C400.504 98.2917 419 144.1 419 201.6C419 239.933 403.763 281.621 373.288 326.663C342.812 371.704 296.717 420.483 235 473Z' fill='#B31312' />
                 </g>
-                <div style={{color:'white'}}>V</div>
+                <div style={{ color: 'white' }}>V</div>
                 {/* <path d='M324.275 124L243.706 279.334V362.293H195.91V279.334L115 124H168.94L220.149 232.905L271.017 124H324.275Z' fill='#FFD700' />
                 <path d='M355 124L274.431 279.334V362.293H226.636V279.334L145.726 124H199.666L250.875 232.905L301.743 124H355Z' fill='#115173' /> */}
                 <defs>

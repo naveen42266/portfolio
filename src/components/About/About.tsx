@@ -34,24 +34,25 @@ const About = () => {
           {' '}
           <span className='about__link'>Naveen&nbsp;V</span>
           {' '}
-          , a passionate Full Stack Developer based in Coimbatore, India, showcase my dedication to creating captivating web applications. I bring a comprehensive approach, emphasizing both front-end aesthetics and back-end functionality, resulting in exceptional digital experiences. Beyond coding, I find joy in playing cricket, listening to music, engaging in physical exercise, and tending to my garden, striking a harmonious balance between my technical expertise and a vibrant life outside of development.
+          , a passionate Full Stack Developer based in Erode, India, showcase my dedication to creating captivating web applications. I bring a comprehensive approach, emphasizing both front-end aesthetics and back-end functionality, resulting in exceptional digital experiences. Beyond coding, I find joy in playing cricket, listening to music, engaging in physical exercise, and tending to my garden, striking a harmonious balance between my technical expertise and a vibrant life outside of development.
           <br />
           <br />
           Here are the few technologies that I&apos;have been working recently:
           {' '}
            <br />
           <ul className='about__skillsList'>
-            <li className='about__skillsItems'>React.js & Redux</li>
+            <li className='about__skillsItems'>React.js</li>
             <li className='about__skillsItems'>Next.js</li>
             <li className='about__skillsItems'>Javascript</li>
+            <li className='about__skillsItems'>React Native</li>
             <li className='about__skillsItems'>Typescript</li>
             <li className='about__skillsItems'>Java</li>
+            <li className='about__skillsItems'>Redux & Redux Toolkit</li>
             <li className='about__skillsItems'>Html & Css</li>
             <li className='about__skillsItems'>TailwindCss / Scss</li>
-            <li className='about__skillsItems'>Nodejs</li>
-            <li className='about__skillsItems'>Expressjs</li>
+            <li className='about__skillsItems'>Nodejs & Expressjs (Basics)</li>
+            <li className='about__skillsItems'>Java & SpringBoot</li>
             <li className='about__skillsItems'>MongoDB</li>
-            <li className='about__skillsItems'>Angular</li>
             <li className='about__skillsItems'>SQL</li>
             {/* <li className='about__skillsItems'>DSA</li>
             <li className='about__skillsItems'>AngularJs</li> */}

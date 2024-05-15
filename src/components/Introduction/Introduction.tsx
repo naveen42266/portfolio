@@ -20,11 +20,13 @@ const Introduction = () => {
         <span className='sectiontag'>&lt;section&gt;</span>
         <h1 className='intro__headingPrimary'>
           <span className={letterClass}>H</span>
-          <span className={`${letterClass} _12`}>i,</span>
+          <span className={`${letterClass} _12`}>i</span>
+          <span className={`${letterClass} _13`}>,</span>
           &nbsp;
           <br />
           <span className={`${letterClass} _13`}>I</span>
-          <span className={`${letterClass} _14`}>&apos;m</span>
+          <span className={`${letterClass} _14`}>&apos;</span>
+          <span className={`${letterClass} _15`}>m</span>
           &nbsp;
           <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
           <br />

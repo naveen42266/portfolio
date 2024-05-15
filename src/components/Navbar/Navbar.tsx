@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import './navbar.scss';
-import Switch from "react-switch";
+// import Switch from "react-switch";
 import logo from "assets/images/naav.png"
 const Navbar = () => {
-  const [checked, setChecked] = useState(true);
+  // const [checked, setChecked] = useState(true);
 
   return(
     <nav className='navbar'>
@@ -84,10 +84,7 @@ const Navbar = () => {
           </NavLink>
         </li>
       </ul>
-      
-      <a href='https://drive.google.com/file/d/1qcUDECXoS6npMHYuVt0WQ8kFd7SDQalL/view?usp=sharing' target='_blank' rel='noreferrer' className='navbar__button'>Resume</a>
-
-      {/* <a href='https://drive.google.com/file/d/1SArkoqiFxn9qevyzhdjTVBb6oJnRb6F_/view?usp=sharing' target='_blank' rel='noreferrer' className='navbar__button'>Resume</a> */}
+      <a href='https://drive.google.com/file/d/105WUqEqb81xrkyXLHHO0tE3SMu6yYv4v/view?usp=sharing' target='_blank' rel='noreferrer' className='navbar__button'>Resume</a>
     </div>
   </nav>
   )
