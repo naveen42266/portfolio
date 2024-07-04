@@ -16,7 +16,7 @@
 
 ## About The Project
 
-Hello! My name is Naveen and this is my portfolio .Iam passionate Full Stack Developer based in Coimbatore, India, showcase my dedication to creating captivating web applications. I bring a comprehensive approach, emphasizing both front-end aesthetics and back-end functionality, resulting in exceptional digital experiences. Beyond coding, I find joy in playing cricket, listening to music, engaging in physical exercise, and tending to my garden, striking a harmonious balance between my technical expertise and a vibrant life outside of development.
+Hello! My name is Naveen and this is my portfolio .Iam passionate Full Stack Developer in India, showcase my dedication to creating captivating web applications. I bring a comprehensive approach, emphasizing both front-end aesthetics and back-end functionality, resulting in exceptional digital experiences. Beyond coding, I find joy in playing cricket, listening to music, engaging in physical exercise, and tending to my garden, striking a harmonious balance between my technical expertise and a vibrant life outside of development.
 
 
 
