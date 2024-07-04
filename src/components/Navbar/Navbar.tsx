@@ -3,7 +3,8 @@ import { Link, NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import './navbar.scss';
 // import Switch from "react-switch";
-import logo from "assets/images/naav.png"
+import logo from "assets/images/naav.png";
+import { resume } from 'App';
 const Navbar = () => {
   // const [checked, setChecked] = useState(true);
 
@@ -84,7 +85,7 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
-        <a href='https://drive.google.com/file/d/105WUqEqb81xrkyXLHHO0tE3SMu6yYv4v/view?usp=sharing' target='_blank' rel='noreferrer' className='navbar__button'>Resume</a>
+        <a href={resume} target='_blank' rel='noreferrer' className='navbar__button'>Resume</a>
       </div>
     </nav>
   )

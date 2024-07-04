@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '@components/AnimatedLetters/AnimatedLetters';
 import './introduction.scss';
+import { resume } from 'App';
 
 const Introduction = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -38,7 +39,7 @@ const Introduction = () => {
         <Link to='/contact' className='intro__button'>
           Contact Me
         </Link>
-        <a href='https://drive.google.com/file/d/105WUqEqb81xrkyXLHHO0tE3SMu6yYv4v/view?usp=sharing' target='_blank' rel='noreferrer' className='intro__resumeButton'>Resume</a>
+        <a href={resume} target='_blank' rel='noreferrer' className='intro__resumeButton'>Resume</a>
         </div>
         <span className='sectiontag'>&lt;/section&gt;</span>
       </div>
