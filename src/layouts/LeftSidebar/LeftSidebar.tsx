@@ -28,6 +28,13 @@ const LeftSideBar = () => {
             </a>
           </li>
           <li className='left__linkItems'>
+            <a href='https://www.linkedin.com/in/naveen007/' target='_blank' rel='noreferrer' className='left__links'>
+              <svg className='left__icon'>
+                <use href='/icons/symbol-defs.svg#icon-linkedin' />
+              </svg>
+            </a>
+          </li>
+          <li className='left__linkItems'>
             <a href='https://x.com/billanaveen0001' className='left__links' target='_blank' rel='noreferrer'>
               {hover ?
                 <svg className="left__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" onMouseLeave={() => { setHover(false) }}>
@@ -40,12 +47,12 @@ const LeftSideBar = () => {
             </a>
           </li>
           <li className='left__linkItems'>
-            <a href='https://www.linkedin.com/in/naveen007/' target='_blank' rel='noreferrer' className='left__links'>
-              <svg className='left__icon'>
-                <use href='/icons/symbol-defs.svg#icon-linkedin' />
-              </svg>
-            </a>
-          </li>
+          <a href='https://www.instagram.com/its_nav_een0001/' className='left__links' target='_blank' rel='noreferrer'>
+            <svg className='left__icon'>
+              <use href='/icons/symbol-defs.svg#icon-instagram' />
+            </svg>
+          </a>
+        </li>
         </ul>
         <div className='left__line' />
       </main>
