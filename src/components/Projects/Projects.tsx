@@ -5,6 +5,8 @@ import AnimatedLettersFast from '@components/AnimatedLettersFast/AnimatedLetters
 import Project1 from "assets/images/todo.png"
 import Project2 from "assets/images/domoto.png"
 import Project3 from "assets/images/miro.png"
+import Project4 from "assets/images/whatapp.png"
+import Project5 from "assets/images/nutritionblog.png"
 
 const Project = () => {
   const [letterClass, setLetterClass] = useState('text-animate-fast');
@@ -27,6 +29,64 @@ const Project = () => {
       <LazyLoad once height={400}>
         <section className='project__section'>
           <div className='project__left'>
+            <img className='project__img' src={Project4} alt='color palette' />
+          </div>
+          <div className='project__right'>
+            <h3 className='project__headingTertiary'>Featured Project</h3>
+            <a href='https://github.com/naveen42266/whatsapp-web-clone' target='_blank' rel='noreferrer' className='project__headingSecondary'><h2>Whatsapp Web Clone</h2></a>
+            <div className='project__descriptionContainer'>
+              <p className='project__description'>
+                Designed a WhatsApp Web clone's frontend using HTML, CSS, and React. Created intuitive, responsive chat windows, contact lists, and media sharing features. Ensured smooth interactions. This project enhanced my skills in new technologies, responsive design, and UI development.
+              </p>
+              <div className='project__tags'> React.js &nbsp;Typescript &nbsp; SCSS/SASS &nbsp; Mui &nbsp;</div>
+              <div className='project__icons'>
+                <a href='https://github.com/naveen42266/whatsapp-web-clone' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
+                  <svg className='project__icon'>
+                    <use href='icons/symbol-defs.svg#icon-github' />
+                  </svg>
+                </a>
+                <a href='https://chatsapp-web-clone.vercel.app' target='_blank' rel='noreferrer'>
+                  <svg className='project__icon'>
+                    <use href='icons/symbol-defs.svg#icon-external-link' />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </LazyLoad>
+      <LazyLoad once height={400}>
+        <section className='project__section'>
+          <div className='project__left1'>
+            <h3 className='project__headingTertiary'>Featured Project</h3>
+            <a href='https://nutrition-blog.vercel.app' target='_blank' rel='noreferrer' className='project__headingSecondary'><h2>Nutrition Blog </h2></a>
+            <div className='project__descriptionContainer project__descriptionContainer1'>
+              <p className='project__description'>
+                Developed a comprehensive nutrition blog featuring a user-friendly home section, post screens, and an in-depth blog screen. Implemented sections on Keto, recipes, lifestyle tips, and meal plans. Integrated contact forms, FAQs, downloads, refunds, and terms & conditions for a complete user experience. Enhanced site functionality and design for optimal user engagement.
+              </p>
+              <div className='project__tags'> React.js &nbsp; Vite  &nbsp; Typescript &nbsp; SCSS/SASS &nbsp; Mui &nbsp;</div>
+              <div className='project__icons project__icons1'>
+                <a href='https://github.com/naveen42266/nutrition-blog' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
+                  <svg className='project__icon'>
+                    <use href='icons/symbol-defs.svg#icon-github' />
+                  </svg>
+                </a>
+                <a href='https://nutrition-blog.vercel.app' target='_blank' rel='noreferrer'>
+                  <svg className='project__icon'>
+                    <use href='icons/symbol-defs.svg#icon-external-link' />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className='project__right'>
+            <img className='project__img' src={Project5} alt='yelpcap campgrounds' />
+          </div>
+        </section>
+      </LazyLoad>
+      <LazyLoad once height={400}>
+        <section className='project__section'>
+          <div className='project__left'>
             <img className='project__img' src={Project1} alt='color palette' />
           </div>
           <div className='project__right'>
@@ -36,7 +96,7 @@ const Project = () => {
               <p className='project__description'>
                 Effortlessly manage tasks on our Todo Website. Add, complete, and delete tasks seamlessly between your todo and done lists. Enjoy the convenience of light and dark mode for a personalized user experience.
               </p>
-              <div className='project__tags'> React.js &nbsp; Next.js &nbsp; Node.js &nbsp; MongoDB &nbsp; Express.js &nbsp; SCSS/SASS</div>
+              <div className='project__tags'> React.js &nbsp; Node.js &nbsp; MongoDB &nbsp; Express.js &nbsp; SCSS/SASS</div>
               <div className='project__icons'>
                 <a href='https://github.com/naveen42266/todo_frontend' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
                   <svg className='project__icon'>
@@ -129,6 +189,68 @@ const Project = () => {
                 <use href='icons/symbol-defs.svg#icon-folder' />
               </svg>
               <div className='projectResp__cardLink'>
+                <a href='https://github.com/naveen42266/whatsapp-web-clone' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
+                  <svg className='projectResp__icon'>
+                    <use href='icons/symbol-defs.svg#icon-github' />
+                  </svg>
+                </a>
+                <a href='https://chatsapp-web-clone.vercel.app' target='_blank' rel='noreferrer'>
+                  <svg className='projectResp__icon'>
+                    <use href='icons/symbol-defs.svg#icon-external-link' />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className='projectResp__cardBody'>
+              <div className='projectResp__cardBodyHeading'>Whatsapp Web Clone</div>
+              <p className='projectResp__cardBodyDescription'>
+                Designed a WhatsApp Web clone's frontend using HTML, CSS, and React. Created intuitive, responsive chat windows, contact lists, and media sharing features. Ensured smooth interactions. This project enhanced my skills in new technologies, responsive design, and UI development.
+              </p>
+              {' '}
+
+            </div>
+            <div className='projectResp__cardFooter'>
+              <div className='project__tags'> React.js &nbsp; Typescript &nbsp; SCSS/SASS &nbsp; Mui &nbsp;</div>
+            </div>
+          </div>
+        </li>
+        <li className='projectResp__items projectResp__items1'>
+          <div className='projectResp__card'>
+            <div className='projectResp__cardTop'>
+              <svg className='projectResp__cardFolder'>
+                <use href='icons/symbol-defs.svg#icon-folder' />
+              </svg>
+              <div className='projectResp__cardLink'>
+                <a href='https://github.com/naveen42266/nutrition-blog' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
+                  <svg className='projectResp__icon'>
+                    <use href='icons/symbol-defs.svg#icon-github' />
+                  </svg>
+                </a>
+                <a href='https://nutrition-blog.vercel.app' target='_blank' rel='noreferrer'>
+                  <svg className='projectResp__icon'>
+                    <use href='icons/symbol-defs.svg#icon-external-link' />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className='projectResp__cardBody'>
+              <div className='projectResp__cardBodyHeading'>Nutrition Blog </div>
+              <p className='projectResp__cardBodyDescription'>
+                Developed a comprehensive nutrition blog featuring a user-friendly home section, post screens, and an in-depth blog screen. Implemented sections on Keto, recipes, lifestyle tips, and meal plans. Integrated contact forms, FAQs, downloads, refunds, and terms & conditions for a complete user experience. Enhanced site functionality and design for optimal user engagement.
+              </p>
+            </div>
+            <div className='projectResp__cardFooter'>
+              <div className='project__tags'> React.js &nbsp; Vite  &nbsp; Typescript &nbsp; SCSS/SASS &nbsp; Mui &nbsp;</div>
+            </div>
+          </div>
+        </li>
+        <li className='projectResp__items projectResp__items1'>
+          <div className='projectResp__card'>
+            <div className='projectResp__cardTop'>
+              <svg className='projectResp__cardFolder'>
+                <use href='icons/symbol-defs.svg#icon-folder' />
+              </svg>
+              <div className='projectResp__cardLink'>
                 <a href='https://github.com/naveen42266/todo_frontend' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
                   <svg className='projectResp__icon'>
                     <use href='icons/symbol-defs.svg#icon-github' />
@@ -150,7 +272,7 @@ const Project = () => {
 
             </div>
             <div className='projectResp__cardFooter'>
-              <div className='projectResp__tags'> Next.js &nbsp; React.js &nbsp; Node.js &nbsp; MongoDB &nbsp; Express.js &nbsp; SCSS/SASS</div>
+              <div className='projectResp__tags'> React.js &nbsp; Node.js &nbsp; MongoDB &nbsp; Express.js &nbsp; SCSS/SASS</div>
             </div>
           </div>
         </li>
