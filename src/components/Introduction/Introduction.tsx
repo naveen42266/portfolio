@@ -34,7 +34,7 @@ const Introduction = () => {
           <img src='https://res.cloudinary.com/dhbiouaym/image/upload/v1663667972/Portfolio/logo-s_fna9e6.png' className='intro__logos' alt='' />
           <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={19} />
         </h1>
-        <h2 className='intro__headingSecondary'>Full Stack Developer / Software Engineer</h2>
+        <h2 className='intro__headingSecondary'>Front End Developer / Software Developer</h2>
         <div className='intro__flex'>
         <Link to='/contact' className='intro__button'>
           Contact Me

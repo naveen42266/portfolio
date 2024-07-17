@@ -34,7 +34,7 @@ const About = () => {
           {' '}
           <span className='about__link'>Naveen&nbsp;V</span>
           {' '}
-          , a passionate Full Stack Developer based in India, showcase my dedication to creating captivating web applications. I bring a comprehensive approach, emphasizing both front-end aesthetics and back-end functionality, resulting in exceptional digital experiences. Beyond coding, I find joy in playing cricket, listening to music, engaging in physical exercise, and tending to my garden, striking a harmonious balance between my technical expertise and a vibrant life outside of development.
+          , a passionate Front End Developer based in India, showcase my dedication to creating captivating web applications. I bring a comprehensive approach, emphasizing both front-end aesthetics and back-end functionality, resulting in exceptional digital experiences. Beyond coding, I find joy in playing cricket, listening to music, engaging in physical exercise, and tending to my garden, striking a harmonious balance between my technical expertise and a vibrant life outside of development.
           <br />
           <br />
           Here are the few technologies that I&apos;have been working recently:
