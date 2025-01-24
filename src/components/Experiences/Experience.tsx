@@ -59,7 +59,7 @@ const Experiences = () => {
               <svg className='other__cardFolder'>
                 <use href='icons/symbol-defs.svg#icon-folder' />
               </svg>
-              <div>June 2023 - Dec 2023 </div>
+              <div>Feb 2023 - Dec 2023 </div>
               {/* <div className='other__cardLink'>
                 <a href='#' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
                   <svg className='other__icon'>
@@ -88,33 +88,18 @@ const Experiences = () => {
             </div>
           </div>
         </li>
-        <li className='other__items'>
+        {/* <li className='other__items'>
           <div className='other__card'>
             <div className='other__cardTop'>
               <svg className='other__cardFolder'>
                 <use href='icons/symbol-defs.svg#icon-folder' />
               </svg>
               <div>Feb 2023 - May 2023 </div>
-              {/* <div className='other__cardLink'>
-                <a href='#' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
-                  <svg className='other__icon'>
-                    <use href='icons/symbol-defs.svg#icon-github' />
-                  </svg>
-                </a>
-                <a href='https://youtu.be/MF7xbfKyaEk' target='_blank' rel='noreferrer'>
-                  <svg className='other__icon'>
-                    <use href='icons/symbol-defs.svg#icon-external-link' />
-                  </svg>
-                </a>
-              </div> */}
             </div>
             <div className='other__cardBody'>
               <div className='other__cardBodyHeading'>Full Stack Developer Intern</div>
               <div className=''>Sporfy India Private Limited</div>
               <p className='other__cardBodyDescription'>
-                {/* Played a key role in working with React to address complex scenarios, solve critical bugs, and contribute to challenging projects. During the internship, gained valuable experience in web development, which enhanced problem-solving skills and fostered effective project collaboration. Developed proficiency in time management while actively contributing to various projects. */}
-                {/* Played a pivotal role in leveraging React expertise to tackle intricate scenarios, troubleshoot critical bugs, and make substantial contributions to challenging projects. The internship provided a valuable opportunity to enhance web development skills, fostering a deeper understanding of problem-solving techniques and effective collaboration within project teams. This hands-on experience not only honed technical capabilities but also developed proficiency in time management, showcasing a commitment to actively contribute to various projects. The dynamic environment of the internship further contributed to a holistic growth in both technical acumen and collaborative work practices. */}
-
                 Played a crucial role in addressing complex scenarios, troubleshooting critical bugs, and contributing significantly to challenging React projects during the internship. Gained valuable web development experience, enhancing problem-solving skills and fostering effective collaboration within project teams. Developed proficiency in time management while actively contributing to various projects, showcasing a commitment to both technical excellence and collaborative work practices.
               </p>
             </div>
@@ -122,7 +107,7 @@ const Experiences = () => {
               <div className='other__tags'>Html &nbsp; Css &nbsp; Material UI &nbsp; Nextjs &nbsp; Reactjs &nbsp; Javascript &nbsp; Java</div>
             </div>
           </div>
-        </li>
+        </li> */}
       </ul>
       <span className='sectiontag'>&lt;/section&gt;</span>
     </div>

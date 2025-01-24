@@ -75,14 +75,14 @@ const Contact = () => {
         <Map
           mapboxAccessToken='pk.eyJ1IjoieWFzaGZhbGtlNzciLCJhIjoiY2t1MjQ2Z2cwMmxjazJvbXI2OGk5b2V0dSJ9.BGnMIJbpa2OzthfRTtTP6w'
           initialViewState={{
-            longitude: 77.241195,
-            latitude: 11.353382,
+            longitude: 77.5946,
+            latitude: 12.9716,
             zoom: 5.5,
           }}
           // style={{ width: "100%", height: 600 }}
           mapStyle='mapbox://styles/mapbox/dark-v8'
         >
-          <Marker latitude={11.353382} longitude={77.241195}>
+          <Marker latitude={12.9716} longitude={77.5946}>
             <button type='button' className='map__button'>
               {/* <img alt='logo' src='src/assets/images/naav.png' className='' /> */}
               <svg width='40' height='132' viewBox='0 0 420 512' fill='none' xmlns='http://www.w3.org/2000/svg'>

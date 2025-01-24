@@ -45,6 +45,7 @@ const About = () => {
             <li className='about__skillsItems'>Next.js</li>
             <li className='about__skillsItems'>Javascript</li>
             <li className='about__skillsItems'>React Native</li>
+            <li className='about__skillsItems'>Angular</li>
             <li className='about__skillsItems'>Typescript</li>
             <li className='about__skillsItems'>Core Java</li>
             <li className='about__skillsItems'>Redux & Redux Toolkit</li>
