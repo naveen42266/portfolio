@@ -2,7 +2,7 @@ import React from 'react';
 import Home from '@pages/Home/Home';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Contact from '@pages/Contact/Contact';
-export const resume = 'https://drive.google.com/file/d/1HpxEcIpgLCrV-6yjxnI6O_m_4piKnBjS/view?usp=sharing'
+export const resume = 'https://drive.google.com/file/d/184QPA8TOVNni8bMLtOQ5c9_BVJu7GGiy/view?usp=sharing'
 const App = () => (
   <BrowserRouter>
     <Routes>
