@@ -2,11 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './projects.scss';
 import LazyLoad from 'react-lazyload';
 import AnimatedLettersFast from '@components/AnimatedLettersFast/AnimatedLettersFast';
-import Project1 from "assets/images/todo.png"
-import Project2 from "assets/images/domoto.png"
-import Project3 from "assets/images/miro.png"
-import Project4 from "assets/images/whatapp.png"
-import Project5 from "assets/images/nutritionblog.png"
 
 const Project = () => {
   const BASE_URL = "https://res.cloudinary.com/dgvuytgom/image/upload/"
@@ -137,23 +132,23 @@ const Project = () => {
                     <use href='icons/symbol-defs.svg#icon-github' />
                   </svg>
                 </a>
-                {/* <a href='https://arcane-retreat-14101.herokuapp.com/' target='_blank' rel='noreferrer'>
+                <a href='https://foodorderingwebsite.pages.dev/' target='_blank' rel='noreferrer'>
                   <svg className='project__icon'>
                     <use href='icons/symbol-defs.svg#icon-external-link' />
                   </svg>
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
           <div className='project__right'>
-            <img className='project__img' src={Project2} alt='yelpcap campgrounds' />
+            <img className='project__img' src={BASE_URL + "v1741151296/Portfolio/domoto_qaa716.png"} alt='yelpcap campgrounds' />
           </div>
         </section>
       </LazyLoad>
       <LazyLoad once height={400}>
         <section className='project__section project__section3'>
           <div className='project__left'>
-            <img className='project__img' src={Project3} alt='online grocery store' />
+            <img className='project__img' src={BASE_URL+ "v1741151296/Portfolio/miro_z8xklw.png"} alt='online grocery store' />
           </div>
           <div className='project__right'>
             <h3 className='project__headingTertiary'>Featured Project</h3>
