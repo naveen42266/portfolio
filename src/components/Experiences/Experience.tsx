@@ -28,38 +28,7 @@ const Experiences = () => {
               <svg className='other__cardFolder'>
                 <use href='icons/symbol-defs.svg#icon-folder' />
               </svg>
-              <div>Jan 2024 - May 2024 </div>
-              {/* <div className='other__cardLink'>
-                <a href='#' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
-                  <svg className='other__icon'>
-                    <use href='/icons/symbol-defs.svg#icon-github' />
-                  </svg>
-                </a>
-                <a href='#' target='_blank' rel='noreferrer'>
-                  <svg className='other__icon'>
-                    <use href='icons/symbol-defs.svg#icon-external-link' />
-                  </svg>
-                </a>
-              </div> */}
-            </div>
-            <div className='other__cardBody'>
-              <div className='other__cardBodyHeading'>Front End Developer</div>
-              <div className=''>Global Software Solutions</div>
-              <p className='other__cardBodyDescription'>
-                I have implemented an admin panel and online e-commerce website, I focused on HR modules and payroll management, handling employee details, salaries, entry and exit times, appraisals, and more. For an e-commerce app built with React Native, I developed features such as category lists, product details, add-to-cart functionality, and account management. Additionally, I worked on an education academy website with student admissions and course selection features. I also managed data on acquiring raw materials and selling manufactured parts to various stakeholders in manufacturing projects.              </p>
-            </div>
-            <div className='other__cardFooter'>
-              <div className='other__tags'> Material UI &nbsp; Redux & Redux Toolkit &nbsp; Nextjs &nbsp; Reactjs &nbsp; Javascript &nbsp; React-Native &nbsp; Typescript &nbsp; Tailwindcss &nbsp; Scss &nbsp; Html & Css &nbsp;</div>
-            </div>
-          </div>
-        </li>
-        <li className='other__items'>
-          <div className='other__card'>
-            <div className='other__cardTop'>
-              <svg className='other__cardFolder'>
-                <use href='icons/symbol-defs.svg#icon-folder' />
-              </svg>
-              <div>Feb 2023 - Dec 2023 </div>
+              <div>Feb 2023 - May 2024 </div>
               {/* <div className='other__cardLink'>
                 <a href='#' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
                   <svg className='other__icon'>

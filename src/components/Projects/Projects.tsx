@@ -9,6 +9,7 @@ import Project4 from "assets/images/whatapp.png"
 import Project5 from "assets/images/nutritionblog.png"
 
 const Project = () => {
+  const BASE_URL = "https://res.cloudinary.com/dgvuytgom/image/upload/"
   const [letterClass, setLetterClass] = useState('text-animate-fast');
   const nameArray = [...'02. My Projects'];
 
@@ -29,7 +30,7 @@ const Project = () => {
       <LazyLoad once height={400}>
         <section className='project__section'>
           <div className='project__left'>
-            <img className='project__img' src={Project4} alt='color palette' />
+            <img className='project__img' src={BASE_URL + "v1741151296/Portfolio/whatapp_sjs7qp.png"} alt='color palette' />
           </div>
           <div className='project__right'>
             <h3 className='project__headingTertiary'>Featured Project</h3>
@@ -80,34 +81,34 @@ const Project = () => {
             </div>
           </div>
           <div className='project__right'>
-            <img className='project__img' src={Project5} alt='yelpcap campgrounds' />
+            <img className='project__img' src={BASE_URL + "v1741151296/Portfolio/nutritionblog_efb0xj.png"} alt='yelpcap campgrounds' />
           </div>
         </section>
       </LazyLoad>
       <LazyLoad once height={400}>
         <section className='project__section'>
           <div className='project__left'>
-            <img className='project__img' src={Project1} alt='color palette' />
+            <img className='project__img' src={BASE_URL + "v1741152134/Portfolio/todo-screenshot_csk9tn.png"} alt='color palette' />
           </div>
           <div className='project__right'>
             <h3 className='project__headingTertiary'>Featured Project</h3>
-            <a href='https://github.com/naveen42266/todo_frontend' target='_blank' rel='noreferrer' className='project__headingSecondary'><h2>Todo</h2></a>
+            <a href='https://todo-vooshfoods.vercel.app/' target='_blank' rel='noreferrer' className='project__headingSecondary'><h2>Todo</h2></a>
             <div className='project__descriptionContainer'>
               <p className='project__description'>
-                Effortlessly manage tasks on our Todo Website. Add, complete, and delete tasks seamlessly between your todo and done lists. Enjoy the convenience of light and dark mode for a personalized user experience.
+                Effortlessly manage tasks on our Todo Website. Add, update, complete, and delete tasks seamlessly between your todo and done lists. Enjoy the convenience of light and dark mode for a personalized user experience.
               </p>
-              <div className='project__tags'> React.js &nbsp; Node.js &nbsp; MongoDB &nbsp; Express.js &nbsp; SCSS/SASS</div>
+              <div className='project__tags'> React.js &nbsp; Node.js &nbsp; MongoDB &nbsp; Express.js &nbsp; JWT web token &nbsp; Google O Auth &nbsp; </div>
               <div className='project__icons'>
-                <a href='https://github.com/naveen42266/todo_frontend' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
+                <a href='https://github.com/naveen42266/vooshfoods-frontend' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
                   <svg className='project__icon'>
                     <use href='icons/symbol-defs.svg#icon-github' />
                   </svg>
                 </a>
-                {/* <a href='#' target='_blank' rel='noreferrer'>
+                <a href='https://todo-vooshfoods.vercel.app/' target='_blank' rel='noreferrer'>
                   <svg className='project__icon'>
                     <use href='icons/symbol-defs.svg#icon-external-link' />
                   </svg>
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
@@ -251,16 +252,16 @@ const Project = () => {
                 <use href='icons/symbol-defs.svg#icon-folder' />
               </svg>
               <div className='projectResp__cardLink'>
-                <a href='https://github.com/naveen42266/todo_frontend' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
+                <a href='https://github.com/naveen42266/vooshfoods-frontend' target='_blank' rel='noreferrer' style={{ marginRight: '1.6rem' }}>
                   <svg className='projectResp__icon'>
                     <use href='icons/symbol-defs.svg#icon-github' />
                   </svg>
                 </a>
-                {/* <a href='#' target='_blank' rel='noreferrer'>
+                <a href='https://todo-vooshfoods.vercel.app/' target='_blank' rel='noreferrer'>
                   <svg className='projectResp__icon'>
                     <use href='icons/symbol-defs.svg#icon-external-link' />
                   </svg>
-                </a> */}
+                </a>
               </div>
             </div>
             <div className='projectResp__cardBody'>
@@ -272,7 +273,7 @@ const Project = () => {
 
             </div>
             <div className='projectResp__cardFooter'>
-              <div className='projectResp__tags'> React.js &nbsp; Node.js &nbsp; MongoDB &nbsp; Express.js &nbsp; SCSS/SASS</div>
+              <div className='projectResp__tags'> React.js &nbsp; Node.js &nbsp; MongoDB &nbsp; Express.js &nbsp; JWT web token &nbsp; Google O Auth &nbsp;</div>
             </div>
           </div>
         </li>
